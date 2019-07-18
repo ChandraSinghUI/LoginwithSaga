@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render Search properly 1`] = `
+<div
+  className="search"
+>
+  <div
+    className="text-center page-header"
+    style={
+      Object {
+        "fontSize": "12px",
+      }
+    }
+  >
+    <h1>
+      Search
+    </h1>
+  </div>
+  <form
+    className=""
+  >
+    <div
+      className="form-group"
+    >
+      <div
+        className="col-sm-12"
+      >
+        <span
+          className="input-group"
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            id="formUsername"
+            onChange={[Function]}
+            placeholder="Enter search here ..."
+            type="text"
+          />
+          <span
+            className="input-group-addon"
+          >
+            <span
+              className="glyphicon glyphicon-search"
+            />
+          </span>
+        </span>
+      </div>
+    </div>
+  </form>
+  <h6>
+    No Data Found...
+  </h6>
+</div>
+`;

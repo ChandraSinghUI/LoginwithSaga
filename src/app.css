@@ -1,0 +1,88 @@
+* {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ddd;  
+}
+
+header {
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 25px;
+}
+
+main {
+  padding: 0 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table tr td {
+  word-break: break-all;
+}
+
+.lds-ring {
+  margin: 0 auto 10px;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid#808080;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #808080 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+.login{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 60px auto 0px !important;
+  max-width: 450px;
+  background: #fff;
+  padding: 20px 0px;
+}
+.navbar-default{background: #4B286D !important}
+.page-header{border-bottom: 1px solid #ddd;
+margin-bottom: 20px;}
+.navbar-nav li a{color: #fff}
+.btn-primary{width:100%;background: #248700; border-color:#248700; }
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active{background: #66CC00; border-color:#248700;}
+.search{margin-top: 20px;}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
